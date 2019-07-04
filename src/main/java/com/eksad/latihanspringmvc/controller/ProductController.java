@@ -43,8 +43,16 @@ public class ProductController {
 	return "redirect:/product";
 	}
 	
+// buat dari latihan spring mvc yang tadi coba buat tabel
 	
-	// tugas: lanjutkan tugas ini dan update ke github
-	//dikumpulankan senin
-	// secepatnya dikerjajan 
+
+/*buatlah.:
+ * 1. list dari tabel brand
+ * 2. Form tambah brand
+ * 3. Edit data brand
+ * 4. hapus data brand
+ * 
+ */
+	
+	
 }

@@ -1,8 +1,9 @@
+/*
 package com.eksad.latihanspringmvc.controller;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -33,3 +34,5 @@ public class Hellocontroller {
 					+ "</br> <a href='https://www.youtube.com'>klik di sini menuju Youtube</a>";
 		}
 }
+
+*/

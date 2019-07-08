@@ -1,3 +1,5 @@
+/*
+
 package com.eksad.latihanspringmvc.controller;
 
 import java.util.List;
@@ -15,8 +17,7 @@ import com.eksad.latihanspringmvc.repository.ProductRevositoryDAO;
 @Controller
 @RequestMapping("product")
 public class ProductController {
-	
-	
+
 	@Autowired
 	ProductRevositoryDAO productRevositoryDAO;
 	
@@ -42,9 +43,8 @@ public class ProductController {
 		
 	return "redirect:/product";
 	}
-	
-// buat dari latihan spring mvc yang tadi coba buat tabel
-	
+		
+		*/
 
 /*buatlah.:
  * 1. list dari tabel brand
@@ -55,4 +55,4 @@ public class ProductController {
  */
 	
 	
-}
+//}

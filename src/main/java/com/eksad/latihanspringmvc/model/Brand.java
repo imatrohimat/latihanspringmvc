@@ -1,7 +1,6 @@
-/*
-
 package com.eksad.latihanspringmvc.model;
-import javax.persistence.Column;
+
+//import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,17 +8,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="product")
-public class Product {
+@Table(name="brand")
+public class Brand {
 	@Id
 	@GeneratedValue(strategy= GenerationType.AUTO)
 	private long id;
-	@Column(name= "brand_id")
+	//@Column(name="id")
 	
-	private Long brandId;
 	private String name;
-	private Long price;
-	private String type;
+	private String product_type;
 	
 	public long getId() {
 		return id;
@@ -27,34 +24,19 @@ public class Product {
 	public void setId(long id) {
 		this.id = id;
 	}
-	public Long getBrandId() {
-		return brandId;
-	}
-	public void setBrandId(Long brandId) {
-		this.brandId = brandId;
-	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Long getPrice() {
-		return price;
+	public String getProduct_type() {
+		return product_type;
 	}
-	public void setPrice(Long price) {
-		this.price = price;
-	}
-	public String getType() {
-		return type;
-	}
-	public void setType(String type) {
-		this.type = type;
+	public void setProduct_type(String product_type) {
+		this.product_type = product_type;
 	}
 	
-
 	
 
 }
-
-*/

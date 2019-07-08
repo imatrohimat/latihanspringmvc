@@ -1,3 +1,5 @@
+/*
+
 package com.eksad.latihanspringmvc.controller;
 
 import org.springframework.stereotype.Controller;
@@ -19,3 +21,5 @@ public class MyController {
 		return "myname";
 	}
 }
+
+*/
